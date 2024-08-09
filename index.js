@@ -53,7 +53,7 @@ form.addEventListener('submit', e => {
     e.preventDefault()
 
     let title = form.elements['title'].value
-    let description = form.elements['title'].value
+    let description = form.elements['description'].value
 
     todo_container.appendChild(
         make_todo_div(title, description)
